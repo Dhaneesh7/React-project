@@ -20,7 +20,7 @@ const Login = () => {
       <h2 className="text-2xl font-bold">Login</h2>
       <input className="border p-2 w-full mb-2" type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
       <input className="border p-2 w-full mb-2" type="password" placeholder="password" onChange={(e) => setPass(e.target.value)} />
- <button className="bg-green-500 text-white px-4 py-2" onClick={handleLogin}>
+ <button className="bg-green-500 hover:bg-red-300 text-white px-4 py-2" onClick={handleLogin}>
         Login
       </button>
     </div>
