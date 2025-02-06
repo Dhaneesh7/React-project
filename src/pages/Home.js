@@ -14,7 +14,7 @@ const Home = () => {
   );
 
   return (
-    <div className="p-6">
+    <div className="p-6 hover:bg-blue-300">
       <h2 className="text-2xl font-bold mb-4">Blog Posts</h2>
       <input
         type="text"
