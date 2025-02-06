@@ -42,7 +42,7 @@ const [name,setName]=useState("");
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button className="bg-blue-500 text-white px-4 py-2 w-full">
+        <button className="bg-blue-500 hover:bg-red-300 text-white px-4 py-2 w-full">
           Signup
         </button>
       </form>
